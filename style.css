@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 .runline {
     height: 38px;
     background: url(./img/bg-top-bar-promotion-home-7_2048x.jpg);
@@ -455,6 +456,10 @@ p {
     width: 58%;
 }
 
+#mobile img:hover{
+    transition: all linear 0.4s;
+    transform: scale(1.03);
+}
 /*<============================= Section ten =====================> */
 
 #tel1 {
@@ -613,4 +618,9 @@ footer {
 #copy{
   color: #505050;
     margin-top: 40px;
+}
+
+a{
+    overflow: hidden;
+    border-radius: 20px;
 }
