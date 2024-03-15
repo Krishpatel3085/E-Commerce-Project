@@ -1,0 +1,317 @@
+/*<==================================== 1439 px size ===========================> */
+@media (max-width:1439px) {
+    .header nav {
+        display: none;
+    }
+
+    .new-bar {
+        display: none;
+    }
+
+}
+
+/*<==================================== 1440 px size ===========================> */
+
+@media (min-width:1440px) {
+    .letest nav {
+        display: none;
+    }
+
+    #btn12 {
+        display: none;
+    }
+
+    #televisions {
+        display: none;
+    }
+
+}
+
+/*<==================================== 1024 px size ===========================> */
+
+@media (max-width:1024px) {
+    .section-one {
+        height: 327px;
+    }
+
+    .box1 {
+        margin-left: 100px;
+        padding-top: 60px;
+    }
+
+    .box1 h2 {
+        font-size: 24px;
+    }
+
+    .line2 {
+        gap: 60px;
+        font-size: 15px;
+    }
+
+    .line2 i {
+        font-size: 25px;
+    }
+
+    .ban2,
+    .ban1 {
+        gap: 25px;
+    }
+
+    .ban1 img {
+        width: 300px;
+    }
+
+    .ban2 img {
+        width: 465px;
+    }
+
+    #kk {
+        width: 300px;
+        height: 300px;
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+
+    #kkk {
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+
+    }
+
+    #televisions {
+        display: none;
+    }
+
+}
+/*<==================================== 768 px size ===========================> */
+
+@media (max-width:768px) {
+    .section-one {
+        height: 245px;
+    }
+
+    .box1 {
+        margin-left: 60px;
+        padding-top: 20px;
+    }
+
+    .box1 p {
+        font-size: 15px;
+    }
+
+    .line2 {
+        gap: 40px;
+        font-size: 12px;
+    }
+
+    .line2 i {
+        font-size: 20px;
+    }
+
+    .ban2,
+    .ban1 {
+        gap: 25px;
+    }
+
+    .ban1 img {
+        width: 220px;
+    }
+
+    .ban2 img {
+        margin-top: -10px;
+        width: 345px;
+    }
+
+    #kk {
+        width: 200px;
+        height: 300px;
+        margin-top: 280px;
+        margin-left: 90px;
+    }
+
+    #kkk {
+        width: 200px;
+        height: 300px;
+        margin-left: 90px;
+
+    }
+
+    #prod2 {
+        display: none;
+    }
+
+    #televisions {
+        display: none;
+    }
+
+    #ele {
+        display: none;
+    }
+
+    #vote {
+        display: block;
+    }
+    #list2{
+        width: 250px;
+    }
+
+}
+/*<==================================== 426 px size ===========================> */
+
+
+@media (max-width:426px) {
+    .section-one {
+        background: url(./img/home-19-slider-mb-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 375px;
+    }
+
+    .box1 {
+        margin-left: 30px;
+        padding-top: 80px;
+    }
+
+    .letest .btn {
+        font-size: 25px;
+    }
+
+    .line2 {
+        gap: 30px;
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    .ban2,
+    .ban1 {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .ban1 img {
+        width: 390px;
+    }
+
+    .ban2 img {
+        margin-top: 5px;
+        width: 390px;
+
+    }
+
+    #mobile {
+        margin-top: 300px;
+    }
+
+    #res1 {
+        display: none;
+    }
+
+    #res {
+        width: 100%;
+        height: 400px;
+        display: block;
+    }
+
+    #prod {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        margin-top: 0px;
+    }
+
+    #mobile2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #televisions {
+        display: block;
+    }
+
+    #tel1 {
+        display: none;
+    }
+
+    .sub input {
+        width: 100%;
+    }
+
+    .sub button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #list2 {
+        display: none;
+    }
+
+    #limg img {
+       width: 100%;
+    }
+}
+
+/*<==================================== 375 px size ===========================> */
+
+@media (max-width:376px) {
+    .line1 p {
+        font-size: 10px;
+    }
+
+    .line1 button {
+        font-size: 10x;
+    }
+
+    .line2 {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .line2 i {
+        font-size: 20px;
+    }
+
+    .ban2,
+    .ban1 {
+        gap: 10px;
+    }
+
+    .ban1 img {
+        width: 340px;
+    }
+
+    .ban2 img {
+        margin-top: 5px;
+        width: 345px;
+    }
+
+    #res {
+        width: 100%;
+    }
+}
+
+
+/*<==================================== 320 px size ===========================> */
+
+@media (max-width:320px) {
+    .line1 p {
+        font-size: 10px;
+    }
+
+    .ban1 img {
+        width: 300px;
+    }
+
+    .ban2 img {
+        margin-top: 5px;
+        width: 310px;
+    }
+
+    #res {
+        width: 100%;
+    }
+
+}
