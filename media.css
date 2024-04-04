@@ -82,7 +82,10 @@
     #televisions {
         display: none;
     }
-
+    #boxs-main {
+     display: inline-flexbox;
+       
+    }
 }
 /*<==================================== 768 px size ===========================> */
 
@@ -99,7 +102,10 @@
     .box1 p {
         font-size: 15px;
     }
-
+    #boxs-main {
+        gap: 45px;
+       
+    }
     .line2 {
         gap: 40px;
         font-size: 12px;

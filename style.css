@@ -319,10 +319,17 @@
     margin: auto;
 }
 
+.slide-wrapper {
+    display: block;
+    justify-content: center;
+}
+
 .slide-wrapper ul {
     display: flex;
     list-style: none;
+    justify-content: center;
     gap: 10px;
+    margin-left: -30px;
 }
 
 .slide-wrapper li {
@@ -410,8 +417,9 @@ p {
     text-decoration: none;
     color: black;
 }
+
 .line-1 li:hover,
-.line-2 li:hover{
+.line-2 li:hover {
     text-decoration: underline;
     transition: all linear 0.4s;
     transform: scale(1.03);
@@ -456,10 +464,11 @@ p {
     width: 58%;
 }
 
-#mobile img:hover{
+#mobile img:hover {
     transition: all linear 0.4s;
     transform: scale(1.03);
 }
+
 /*<============================= Section ten =====================> */
 
 #tel1 {
@@ -548,6 +557,12 @@ p {
 footer {
     background: #f5f5f5;
 }
+#list3 ul li{
+    display: flex;
+    color: #505050;
+
+}
+
 
 .sub input {
     width: 450px;
@@ -601,26 +616,29 @@ footer {
 #icons {
     display: flex;
     gap: 10px;
+
 }
 
 #icons li {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     background-color: #4b4b4b;
     border-radius: 50%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #icons li i {
     color: white;
 }
 
-#copy{
-  color: #505050;
+#copy {
+    color: #505050;
     margin-top: 40px;
 }
 
-a{
+a {
     overflow: hidden;
     border-radius: 20px;
 }
